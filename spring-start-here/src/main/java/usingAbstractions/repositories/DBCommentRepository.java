@@ -1,10 +1,11 @@
 package usingAbstractions.repositories;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import usingAbstractions.model.Comment;
 
-@Component
+@Repository
 public class DBCommentRepository implements CommentRepository {
 	
 	@Override

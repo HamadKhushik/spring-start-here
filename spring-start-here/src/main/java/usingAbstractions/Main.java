@@ -28,6 +28,7 @@ public class Main {
 		// close the context
 		context.close();
 		
+		
 		/* Without using Spring
 		 * 
 		var commentRepository = new DBCommentRepository();
