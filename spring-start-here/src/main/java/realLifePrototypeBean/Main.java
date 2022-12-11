@@ -11,7 +11,8 @@ public class Main {
 		
 		// Retrieve the Bean
 		CommentService cs = context.getBean(CommentService.class);
-		
+		CommentRepository cr = context.getBean(CommentRepository.class);
+		System.out.println("CommentRepository.getClass(): " + cs.getClass());
 		
 		// Create a Comment Object
 		realLifePrototypeBean.Comment c = new realLifePrototypeBean.Comment();
